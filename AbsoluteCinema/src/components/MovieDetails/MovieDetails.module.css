@@ -1,0 +1,61 @@
+.movieContainer {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+    
+    img {
+        max-width: 450px;
+        min-width: 250px;
+        max-height: 750px;
+        width: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .homepage {
+        display: flex;
+        align-items: center;
+    }
+
+    .status {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .movieDetails {
+        background: #323e78;
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+        align-self: flex-start;
+        max-width: 800px;
+    }
+
+    .homepageLink {
+        color: white;
+
+        &:hover {
+            color: rgb(229, 229, 229);
+        }
+    }
+
+    .originalLanguage {
+        text-transform: uppercase;
+    }
+}
+
+.backBtn {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .movieContainer {
+        flex-direction: column;
+        
+        img {
+            width: 50%;
+            margin-inline: auto;
+        }
+    }
+}

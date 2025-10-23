@@ -1,0 +1,29 @@
+.cardPoster{
+    height: 445px;
+    object-fit: cover;
+}
+
+.cardContainer{
+    padding: 30px 10px;
+}
+.language {
+    text-transform: uppercase;
+}
+.title{
+     height: 47.98px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+.description{
+    height: 120px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
