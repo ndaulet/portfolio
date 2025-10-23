@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color:mistyrose;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+header{
+    background-color:brown;
+    height: 200px;
+    text-align: center; 
+    color:white;
+}
+.home{
+    height: 100px;
+}
+footer{
+    height: 100px;
+    background-color: brown;
+    color:white;
+}
+h2{
+    background-color: brown;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:white;
+}
+.director{
+    border-style: solid;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.manadger{
+    border-style: solid;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.manadger1{
+    border-style: solid;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;   
+}
+.news{
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;  
+}
+h4{
+    padding-top: 15px;
+}
